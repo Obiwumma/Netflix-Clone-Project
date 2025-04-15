@@ -1,0 +1,40 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  width: 100%;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.back_overlay {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  background: rgba(185, 185, 185, 0.1);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(92px);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.background{
+  height: 100vh;
+  background-image: url(./images/background.PNG);
+}
+.hero {
+  background-color: transparent;
+  color: white;
+  padding: 100px 20px 60px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+.inner_hero{
+  width: 80%;
+  height: 80%;
+  /* background-color: black; */
+}
