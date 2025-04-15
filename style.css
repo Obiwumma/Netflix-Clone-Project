@@ -31,10 +31,65 @@ header{
   position: relative;
   display: flex;
   justify-content: center;
-  height: 80vh;
+  height: 70vh;
 }
 .inner_hero{
   width: 80%;
   height: 80%;
   /* background-color: black; */
+}
+.bg-video {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  height: 75%;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 20px;
+}
+.inner_hero {
+  z-index: 2;
+  padding: 15px;
+}
+.sign{
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: 600;
+  width: 6em;
+  border-radius: 30px;
+  border: none;
+}
+.top{
+  margin: 1.5em 2em;
+}
+.writeup h1{
+  font-size: 2em;
+  margin-bottom: 2px;
+}
+.writeup p{
+  margin-top: 0px;
+}
+.mail_writeup{
+  display: flex;
+  justify-content: space-between;
+}
+.email{
+  height: 2em;
+  width: 21em;
+  padding: 15px;
+  background-color: #a7a2a272;
+  border: none;
+  border-radius: 2em;
+  color: #ffffff;
+}
+.mail_writeup button{
+  background-color: rgb(246, 18, 30);
+  font-size: 1.5rem;
+  padding: 0.75rem 2rem;
+  height: 3.5rem;
+  width: 14rem;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  border-radius: 2rem;
 }
