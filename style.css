@@ -20,7 +20,7 @@ header{
   border: 1px solid rgba(255,255,255,0.05);
 }
 .background{
-  height: 100vh;
+  height: 100%;
   background-image: url(./images/background.PNG);
 }
 .hero {
@@ -42,7 +42,7 @@ header{
   position: absolute;
   top: 0;
   width: 90%;
-  height: 75%;
+  height: 30em;
   object-fit: cover;
   z-index: -1;
   border-radius: 20px;
@@ -92,4 +92,52 @@ header{
   color: #ffffff;
   border: none;
   border-radius: 2rem;
+}
+.carousel-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-track-container {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 0 0 20%; 
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000000a0;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
 }
