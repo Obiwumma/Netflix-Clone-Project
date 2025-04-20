@@ -205,6 +205,7 @@ header{
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .question:hover{
@@ -212,5 +213,16 @@ header{
   transition: .1s;
 }
 .minus-sign{
+  display: none;
+}.plus-sign{
+  display: block;
+}
+.answer{
+  display: none; 
+}
+.active{
+  display: block;
+}
+.inactive{
   display: none;
 }
