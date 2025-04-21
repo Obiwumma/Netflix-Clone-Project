@@ -8,7 +8,7 @@ const visibleSlides = 5;
 const slideWidth = slides[0].getBoundingClientRect().width;
 
 const updateSliderPosition = () => {
-  track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  track.style.transform = `translateX(-${currentIndex * slideWidth * 1}px)`;
 };
 
 nextButton.addEventListener("click", () => {
