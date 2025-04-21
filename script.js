@@ -95,24 +95,8 @@ question.forEach((element, index) => {
 
     if (!isVisible) {
       answer[index].style.display = "block";
-    }
-
-    
+    }   
     
   });
 });
 
-// plus.forEach((element) => {
-//     element.style.display = "none"
-
-//     console.log(element.style.display)
-  // })
-
-
-
-  // const wasVisible = minus[index].style.display === "block"
-  // minus.forEach(min => min.style.display = "none")
-  
-  // if (!wasVisible) {
-  //   minus[index].style.display = "block"
-  // }

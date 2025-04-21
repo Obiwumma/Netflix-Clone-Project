@@ -226,3 +226,54 @@ header{
 .inactive{
   display: none;
 }
+
+.mail_writeup2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: beige;
+}
+.mail-input {
+display: flex;
+}
+
+.mail_writeup2 button{
+  background-color: rgb(246, 18, 30);
+  font-size: 1.5rem;
+  padding: 0.75rem 2rem;
+  height: 3.5rem;
+  width: 14rem;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  border-radius: 2rem;
+}
+.foot-container{
+  width: 90%;
+  margin: 40px auto;
+  padding-left: .5rem;
+  height: 90vh;
+}
+.foot-links{
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 15px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.foot-container, .foot-container a{
+  color: rgb(163, 163, 151);
+}
+.foot-container button{
+  color: rgb(197, 197, 189);
+  background-color: transparent;
+  width: 7rem;
+  padding: .5rem;
+  font-weight: 600;
+  border-width: 1px;
+  border-color: rgb(163, 163, 151);
+  border-style: solid;
+  border-radius: 1rem;
+}
